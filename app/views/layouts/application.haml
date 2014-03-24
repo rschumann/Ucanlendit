@@ -1,0 +1,68 @@
+= render :partial => 'layouts/head'
+
+%body
+
+  = render :partial => "layouts/noscript"
+  
+  -# load Facebook SDK for the whole page
+  = render :partial => "layouts/facebook_sdk"
+ 
+  = render :partial => 'layouts/global-header'
+
+  %section.marketplace-lander
+    - with_big_cover_photo do
+      .coverimage
+        %figure.marketplace-cover.fluidratio
+      .wrapper
+        .lander-content.marketplace-lander-content
+          = yield :title_header 
+    - with_small_cover_photo do
+      .coverimage
+        %figure.marketplace-cover-small.fluidratio
+      .coverimage-fade{:class => yield(:coverfade_class)}
+        %figure.marketplace-cover-small-fade.fluidratio 
+      .title-container
+        .title-header-wrapper
+          .marketplace-title-header
+            = yield :title_header
+            
+      
+
+  %article.page-content
+    .wrapper
+      = render :partial => "layouts/notifications"         
+      = yield
+
+  = render :partial => "layouts/google_analytics_script"
+
+  /[if lt IE 9]
+    - if APP_CONFIG.icon_pack == "ss-pika"
+      = javascript_include_tag "ss-social"
+      = javascript_include_tag "ss-pika"
+
+  -#
+    Most of the JavaScript should be for performance reasons at the end of the body
+
+  = javascript_include_tag 'application'
+
+  - if @analytics_event
+    :javascript
+      report_analytics_event(#{@analytics_event});
+
+  :javascript
+    $(function() {
+      FastClick.attach(document.body);
+      $('input, textarea').placeholder();
+    });
+
+  -# Disable animations on tests
+  - if Rails.env.test?
+    :javascript
+      $(function() {
+        $.transit.enabled = false;
+      });
+
+  = content_for :extra_javascript
+
+  :javascript
+    $(document).ready(function() { initialize_defaults("#{I18n.locale}"); #{yield :javascript} });

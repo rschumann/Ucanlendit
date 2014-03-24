@@ -1,0 +1,43 @@
+@import "mixins/all";
+
+.edit-community-details-edit-link {
+  margin-bottom: lines(0.5);
+}
+
+.edit-community-details-field {
+  margin-bottom: lines(1);
+}
+
+.edit-community-details-field-title {
+  font-weight: bold;
+}
+
+.checkbox-container .settings-checkbox-label {
+  font-weight: 500;
+}
+
+.sort-arrow {
+  position: relative;
+  &:after {
+    font-size: em(12);
+    position: absolute;
+    top: 0;
+    margin-left: lines(0.375);
+    display: inline;
+    content: "▲";
+  }
+}
+
+.sort-arrow-asc {
+  @extend .sort-arrow;
+  &:after {
+    content: "▲";
+  }
+}
+
+.sort-arrow-desc {
+  @extend .sort-arrow;
+  &:after {
+    content: "▼";
+  }
+}

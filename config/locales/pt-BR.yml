@@ -1,0 +1,1771 @@
+pt-BR:
+  admin:
+    categories:
+      edit:
+        edit_listing_category: ~
+      index:
+        listing_categories: ~
+        create_a_new_category: ~
+        remove_category_confirmation: ~
+        saving_order: ~
+        save_order_successful: ~
+        save_order_error: ~
+      new:
+        new_listing_category: ~
+      form:
+        category_name:
+          category_title: "Titulo da categoria"
+        category_parent:
+          category_parent: "Categoria principal"
+          no_parent: ~
+        category_transaction_types:
+          transaction_types: ~
+          transaction_types_description: ~
+        buttons:
+          save: ~
+          cancel: ~
+      remove:
+        remove_category: "Remover categoria"
+        remove_category_name: ~
+        warning_remove_effects: ~
+        select_new_category: ~
+        buttons:
+          remove: ~
+          cancel: ~
+    communities:
+      edit_details:
+        community_details: ~
+        community_look_and_feel: ~
+        edit_community: ~
+        community_name: "Nome da comunidade"
+        edit_community_name_description: ~
+        community_slogan: ~
+        edit_community_slogan_description: ~
+        community_description: ~
+        edit_community_description_description: ~
+        private_community_homepage_content: ~
+        edit_private_community_homepage_content_description: ~
+        update_information: ~
+        invite_people: ~
+        edit_signup_info: ~
+        edit_signup_info_description: ~
+        edit_info: ~
+        see_how_it_looks_like: ~
+        verification_to_post_listings_info_content: ~
+        verification_to_post_listings_info_content_description: ~
+        verification_to_post_listings_info_content_default: ~
+        contact_admin_link_text: ~
+      edit_look_and_feel:
+        edit_community_look_and_feel: ~
+        community_logo: ~
+        community_logo_icon: ~
+        community_cover_photo: ~
+        small_community_cover_photo: ~
+        community_custom_color1: ~
+        community_custom_color2: "Segunda cor"
+        logo_instructions_text_with_dimensions: ~
+        logo_icon_instructions_text_with_dimensions: ~
+        cover_photo_visibility: ~
+        cover_photo_instructions_text_with_dimensions: ~
+        small_cover_photo_visibility: ~
+        small_cover_photo_instructions_text_with_dimensions: ~
+        main_content_width: ~
+        custom_color1_instructions_text: ~
+        custom_color2_instructions_text: ~
+        invalid_color_code: ~
+      edit_welcome_email:
+        welcome_email_content: "Conteúdo do e-mail de boas-vindas"
+        welcome_email_content_description: ~
+        edit_message: "Editar mensagem"
+        send_test_message: ~
+      settings:
+        settings: ~
+        general: Geral
+        users_can_review_each_other_after_transaction: ~
+        access: ~
+        join_with_invite_only: ~
+        users_can_invite_new_users: ~
+        private: ~
+        require_verification_to_post_listings: ~
+        listing_preferences: ~
+        show_listing_publishing_date: ~
+        show_category_in_listing_list: ~
+        hide_expiration_date: ~
+        listing_comments_in_use: ~
+        email_preferences: ~
+        automatic_newsletters: ~
+        email_admins_about_new_members: ~
+        integrations: ~
+        google_analytics_key: ~
+        twitter_handle: ~
+        update_settings: "Configurações de atualização"
+      manage_members:
+        manage_members: "Gerenciar usuários"
+        email: ~
+        name: ~
+        join_date: ~
+        admin: Administrador
+        posting_allowed: "Envio permitido"
+        remove_user: "Remover usuário"
+        saving_user_status: Gravando...
+        save_user_status_successful: ~
+        save_user_status_error: ~
+        remove_user_confirmation: ~
+    custom_fields:
+      edit:
+        edit_listing_field: ~
+      edit_price:
+        edit_price_field: ~
+        show_price_filter_homepage: ~
+        price_min: "Preço mínimo"
+        price_max: "Preço máximo"
+      form:
+        field_required:
+          this_field_is_required: ~
+      index:
+        listing_fields: "Listar campos"
+        add_new_field: "Adicionar novo campo:"
+        remove_field_confirmation: ~
+        cancel: ~
+        save: ~
+        field_title: ~
+        field_type: ~
+        categories: ~
+        no_custom_listing_fields: ~
+        dropdown_options: ~
+        add_option: "+ Adicionar opção"
+        saving_order: ~
+        save_order_successful: ~
+        save_order_error: ~
+        select_one: ~
+        continue: Continua
+        minimum_value: Mínimo
+        maximum_value: Máximo
+        allow_decimals: "Permitir decimais"
+      new:
+        new_listing_field: ~
+      field_types:
+        dropdown: "Lista de opções"
+        textfield: ~
+        numericfield: "Campo numerico"
+    emails:
+      new:
+        send_email_to_members: ~
+        send_email_to_members_title: ~
+        email_subject: "Assunto do e-mail"
+        email_content: "Conteúdo do e-mail"
+        email_content_placeholder: "O que você gostaria de dizer aos membros?"
+        email_language: ~
+        any_language: "Qualquer idioma"
+        send_email: "Enviar o email"
+        message_will_be_sent_only_to_people_with_this_language: ~
+        email_sent: "E-mail enviado."
+    news_items:
+      index:
+        news_items: ~
+        create_news_item: "Criar um artigo"
+        no_news: ~
+        loading_more_news: "Carregar mais notícias"
+      new:
+        new_news_item: "Criar um artigo"
+        edit_news_item: ~
+        index_news_item: "Criar um artigo"
+        title: "Título:"
+        content: "Conteúdo:"
+        save_news_item: ~
+      news_item:
+        edit_news_item: ~
+        delete_news_item: ~
+    polls:
+      index:
+        polls: ~
+        create_poll: "Criar uma enquete"
+        no_polls: "Sem enquetes"
+      edit_poll_links:
+        close_poll: ~
+        open_poll: ~
+        edit_poll: ~
+        delete_poll: ~
+      new:
+        add_option: ~
+        new_poll: "Criar uma enquete"
+        edit_poll: ~
+        title: ~
+        save_poll: ~
+      new_option:
+        option: ~
+        remove_option: "Remover opção"
+      show:
+        edit_poll: ~
+      poll_status:
+        open: ~
+        closed: ~
+    transaction_types:
+      sell: Vendendo
+      rent: ~
+      give: ~
+      lend: Emprestando
+      swap: ~
+      service: ~
+      request: ~
+      inquiry: Inquérito
+      share_for_free: ~
+      default_action_button_labels:
+        sell: ~
+        rent: ~
+        request: ~
+        offer: Requisição
+        inquiry: Contato
+  common:
+    edit_page: ~
+    default_community_slogan: ~
+    default_community_description: ~
+    cancel: Cancelar
+    fields_that_are_mandatory: "Campos marcados com asterisco (*) são obrigatórios."
+    or: ou
+    password: Senha
+    service_name: ~
+    share_types:
+      request: requisição
+      offer: ~
+      borrow: emprestimo
+      buy: compra
+      give_away: doar
+      lend: empréstimo
+      receive: "pegar de graça"
+      rent: alugar
+      rent_out: alugando
+      sell: vendendo
+      offer_to_swap: troca
+      request_to_swap: troca
+      share_for_free: ~
+      accept_for_free: ~
+    categories:
+      item: ~
+      favor: Serviços
+      rideshare: ~
+      housing: ~
+      tools: ~
+      sports: ~
+      music: ~
+      books: ~
+      games: "Jogos e Brinquedos"
+      furniture: ~
+      outdoors: ~
+      food: "Comida e cozinha"
+      electronics: ~
+      pets: "Animais de estimação"
+      film: ~
+      clothes: ~
+      garden: ~
+      travel: ~
+      other: ~
+    username: Usuário
+    username_or_email: ~
+    what_is_this: "O que é isso?"
+  conversations:
+    accept:
+      respond_to_offer: ~
+      respond_to_request: ~
+      accept_offer: ~
+      accept_request: ~
+      reject_offer: "Não agora"
+      reject_request: "Não agora"
+      close_listing: ~
+      update_later: ~
+      optional_message: ~
+      price_to_pay: ~
+      you_need_to_fill_payout_details_before_accepting: ~
+      payment_settings_link: ~
+      minimum_price_error_message: ~
+    confirm:
+      confirm_description: ~
+      cancel_description: ~
+      cancel_payed_description: ~
+      canceling_payed_transaction: ~
+      confirm: "marca concluida"
+      cancel: "Não aconteceu"
+      continue: Continua
+      give_feedback_to: ~
+      do_not_give_feedback: ~
+    index:
+      loading_more_messages: "Carregando mais mensagens"
+      message_partitive: mensagem
+      messages_partitive: mensagens
+      no_received_messages: "Nenhuma mensagem recebida"
+      no_sent_messages: "Nenhuma mensagem enviada"
+    conversation:
+      accepted_request: ~
+      accepted_offer: "Oferta aceita."
+      rejected_request: ~
+      rejected_offer: "Oferta rejeitada."
+      confirmed_request: ~
+      confirmed_offer: ~
+      canceled_request: ~
+      canceled_offer: "Oferta cancelada."
+    message:
+      accepted_request: ~
+      accepted_offer: ~
+      rejected_request: ~
+      rejected_offer: ~
+      confirmed_request: ~
+      confirmed_offer: ~
+      canceled_request: ~
+      canceled_offer: ~
+      paid: ~
+    new:
+      offer_message_form_title: ~
+      request_message_form_title: ~
+      favor_offer_message_form_title: "Peça ajuda para %{person}"
+      favor_request_message_form_title: "Oferecer ajuda para %{person}"
+      housing_offer_message_form_title: "Oferecer espaço para %{person}"
+      housing_request_message_form_title: "Solicitar espaço de%{person}"
+      item_offer_lend_message_form_title: ~
+      item_offer_sell_message_form_title: ~
+      item_offer_give_away_message_form_title: ~
+      item_offer_trade_message_form_title: ~
+      item_offer_rent_out_message_form_title: ~
+      item_request_borrow_message_form_title: ~
+      item_request_buy_message_form_title: ~
+      item_request_take_for_free_message_form_title: ~
+      item_request_trade_message_form_title: ~
+      item_request_rent_message_form_title: ~
+      housing_offer_sell_message_form_title: ~
+      housing_offer_rent_out_message_form_title: ~
+      housing_offer_share_for_free_message_form_title: ~
+      housing_offer_accept_for_free_message_form_title: ~
+      housing_request_buy_message_form_title: ~
+      housing_request_rent_message_form_title: ~
+      item_request_message_form_title: "Oferecer item para %{person}"
+      message: Mensagem
+      rideshare_offer_message_form_title: "Pedir carona para %{person}"
+      rideshare_request_message_form_title: "Oferecer carona para %{person}"
+      send_message: "Enviar mensagem"
+      send: ~
+      this_message_is_private: ~
+      you_will_get_notified_of_acceptance: ~
+      you_will_get_notified: ~
+      title: Titulo
+      send_message_to_user: ~
+    notifications:
+      badgenotification:
+        see_all_your_badges: "Ver todos seus emblemas"
+        you_have_earned_badge: "Você ganhou o emblema"
+      comment_to_followed_listing_notification:
+        has_commented: ~
+        offer_you_follow: ~
+        request_you_follow: ~
+      listing_updated_notification:
+        has_updated: "foi atualizado"
+        offer_you_follow: ~
+        request_you_follow: ~
+      comment_to_own_listing_notification:
+        has_commented: ~
+        your_offer: ~
+        your_request: ~
+      loading_more_notifications: "Carregando mais notificações"
+      no_notifications: "Sem notificações."
+      testimonialnotification:
+        give_feedback_to: "Dar feedback para %{name}"
+        has_given_you_feedback_on_event: "te deu feedback no evento"
+        see_all_the_feedback_you_have_received: "veja todos feedbacks que você recebeu"
+    show:
+      in_response_to_listing: ~
+      message_sent_by: "Mensagem enviada por"
+      message_sent_to: "Mensagem enviada para"
+      send_reply: "Enviar resposta"
+      write_a_reply: "Escreva uma resposta:"
+      conversation_about_listing: ~
+      conversation_with_user: "Com %{person}"
+      last_message_at: ~
+    status:
+      cancel_payed_transaction: ~
+      feedback_given: "Feedback enviado"
+      feedback_skipped: "Feedback descartado"
+      give_feedback: "Dar feedback"
+      offer_accepted: Aceito
+      offer_rejected: Rejeitado
+      offer_canceled: Cancelado
+      offer_confirmed: ~
+      pay: ~
+      paid: ~
+      request_accepted: Aceito
+      request_rejected: Rejeitado
+      request_confirmed: ~
+      request_canceled: Cancelado
+      skip_feedback: "Pular feedback"
+      waiting_for_listing_author_to_accept_offer: ~
+      waiting_for_listing_author_to_accept_request: ~
+      waiting_confirmation_from_requester: ~
+      waiting_payment_from_requester: ~
+    status_link:
+      accept_offer: "Aceitar oferta"
+      accept_request: "Aceitar requisição"
+      reject_offer: "Não agora"
+      reject_request: "Não agora"
+      confirm: "marca completada"
+      cancel: "Não aconteceu"
+  braintree_accounts:
+    new:
+      add_payout_details: ~
+      first_name: ~
+      last_name: ~
+      email: "Endereço de email"
+      phone: Telefone
+      address_street_address: Rua
+      address_postal_code: CEP
+      address_locality: ~
+      address_region: ~
+      date_of_birth: "Data de nascimento"
+      ssn: ~
+      routing_number: ~
+      account_number: "Número da Conta"
+      save: ~
+    show:
+      payout_details: ~
+      first_name: ~
+      last_name: ~
+      email: "Endereço de email"
+      phone: Telefone
+      address_street_address: Rua
+      address_postal_code: CEP
+      address_locality: ~
+      address_region: ~
+      date_of_birth: "Data de nascimento"
+      ssn: ~
+      routing_number: ~
+      account_number: "Número da Conta"
+  braintree_payments:
+    edit:
+      new_credit_card_payment: ~
+      payment_receiver: ~
+      cardholder_name: ~
+      credit_card_number: ~
+      cvv: ~
+      credit_card_expiration_date: ~
+      confirm_payment: "Confirmar pagamento"
+  communities:
+    map_bubble:
+      view_tribe: ~
+    email_confirmation_pending:
+      confirmation_pending: ~
+    enter_organization_email:
+      enter_your_organization_email: ~
+      only_people_with_verified_email_address_can_join_your_tribe: ~
+      continue: Continua
+      tribe_exists: "Tribo existe!"
+      this_tribe_exists_already: ~
+    done:
+      done: ~
+      tribe_created_successfully: ~
+      go_to_your_tribe: ~
+      we_will_contact_you_about_invoicing: ~
+    index:
+      find_your_local_tribe: ~
+      or_start_your_own: ~
+      start_your_own_tribe_link: ~
+    select_pricing_plan:
+      select_your_plan: "Selecione seu plano"
+      pick_one_of_the_options_below: ~
+      create_for_free: "Crie de graça"
+      contact_us: ~
+      free_plan: ~
+      max_members: ~
+      premium_plan: ~
+      care_free_user_support: ~
+      create_your_tribe: "Crie sua tribo"
+      professional_plan: ~
+      unlimited_members: ~
+      intranet_integration: ~
+      no_charge: "De graça"
+      euros_per_month_premium: ~
+      custom_domain: "Domínio personalizado"
+      you_can_change_and_cancel: ~
+      we_help_you_get_started: ~
+      discounts_available_for_non_profits: ~
+    select_tribe_category_form:
+      what_kind_of_tribe_do_you_want_to_create: ~
+      first_tell_us_what_kind_of_community_the_tribe_is_for_by_selecting_one_option_below: ~
+      company: Empresa
+      university: ~
+      town: ~
+      congregation: ~
+      association: Associação
+      neighborhood: Vizinhança
+      apartment_building: ~
+      other: ~
+    new_tribe_form:
+      create_a_tribe_in_a_minute: ~
+      welcome_now_create_your_tribe: ~
+      name_of_your_tribe: ~
+      web_address_of_your_tribe: ~
+      slogan_of_your_tribe: ~
+      describe_your_tribe: ~
+      create_your_tribe: "Crie sua tribo!"
+      domain_invalid: ~
+      domain_taken: ~
+      address: ~
+      select_main_language_of_your_tribe: ~
+      language: Idioma
+      restrict_tribe_to_invited_people: ~
+    signup_form:
+      create_an_account: ~
+      to_create_a_tribe_you_must_first_create_sharetribe_account: ~
+      log_in_with_your_existing_account: ~
+      your_email: "Seu endereço de email"
+      your_university_email: ~
+      your_company_email: ~
+      you_need_to_confirm: ~
+      pick_username: "Escolha um usuário"
+      your_given_name: "Seu nome de batismo"
+      your_family_name: ~
+      your_password: ~
+      confirm_your_password: ~
+      email_in_use_message: ~
+      invalid_email_ending_message: ~
+      log_in_here: ~
+      existing_community_with_this_email: ~
+      here: ~
+      for_company: empresa
+      for_university: ~
+      for_town: ~
+      for_congregation: congregação
+      for_association: ~
+      for_neighborhood: vizinhança
+      for_apartment_building: ~
+      for_other: ~
+  community_memberships:
+    access_denied:
+      access_denied: "Acesso negado"
+      you_are_banned_in_this_community: ~
+      contact_page_link: Reposta
+    new:
+      welcome_fb_user: ~
+      fb_join_accept_terms: ~
+      join_community: "Ingressar na comunidade %{community}"
+      you_are_not_a_member_of_this_community: ~
+      you_can_join: ~
+      you_can_join_email_confirmation: ~
+      you_can_join_email_confirmation_multiple_addresses: ~
+      you_can_join_with_invite_only: ~
+      if_want_to_view_content: ~
+      log_out: sair
+      join_community_button: "Ingressar a comunidade"
+  dashboard:
+    api:
+      coming_soon: "Em breve!"
+    index:
+      watch_the_video: ~
+      get_started: ~
+      browse_communities_around_you: ~
+      slogan: ~
+      create_your_own: "Crie seu próprio"
+      sharing_website: ~
+      main_description: ~
+      kassi_for_your_company: "...PARA SUA EMPRESA"
+      kassi_for_your_company_description: ~
+      kassi_for_your_city: "...PARA SUA CIDADE"
+      kassi_for_your_city_description: ~
+      kassi_for_your_university: "...PARA SUA UNIVERSIDADE"
+      kassi_for_your_university_description: ~
+      want_kassi_for_your_community: ~
+      email_default_text: "Seu endereço de email"
+      send: Enviar!
+      or_drop_us_a_line: ~
+      thanks_for_contacting_us: ~
+      resources: ~
+      connect: CONECTAR
+      about: ~
+      developers: "PARA DESENVOLVEDORES"
+      api: ~
+      blog: ~
+      code: "Código fonte"
+      issue_tracker: ~
+      product_of: ~
+      language: ~
+      new: ~
+      new_text: ~
+      want_to_know_more: ~
+      read_our_faq: ~
+      contact_us: ~
+      why_you_really_should_have_a_tribe: ~
+      an_example: ~
+      home: ~
+      faq: ~
+      browse_tribes: "Procurar tribos"
+      pricing: Preço
+      contact: Contato
+      university_example_link: ~
+      company_example_link: ~
+      city_example_link: ~
+  emails:
+    accept_reminder:
+      remember_to_accept_offer: "Lembrar de aceitar ou rejeitar uma oferta de %{sender_name}"
+      remember_to_accept_request: "Lembrar de aceitar ou rejeitar uma requisição de %{sender_name}"
+      you_can_accept_or_reject_offer_at: "Você pode aceitar ou rejeitar a oferta de"
+      you_can_accept_or_reject_request_at: "Você pode aceitar ou rejeitar a requisição de"
+      you_have_not_yet_accepted_or_rejected_offer: "Você ainda não aceitou nem rejeitou a oferta %{title} que recebeu em %{date}"
+      you_have_not_yet_accepted_or_rejected_request: "Você ainda não aceitou nem rejeitou a requisição %{title} que recebeu em %{date}"
+      show_thread: ~
+    braintree_account_approved:
+      account_ready: ~
+      message: ~
+    confirm_reminder:
+      you_have_not_yet_confirmed_or_canceled_request: ~
+      remember_to_confirm_request: ~
+      if_will_not_happen_you_should_cancel: ~
+      cancel_it_link_text: ~
+    payment_reminder:
+      remember_to_pay: ~
+      you_have_not_yet_paid: ~
+      if_will_not_happen_you_should_cancel: ~
+      cancel_it_link_text: ~
+    payment_settings_reminder:
+      remember_to_add_payment_details: ~
+      you_have_added_listing_with_payment: ~
+      please_go_to_payment_settings: ~
+      payment_settings_link: ~
+    transaction_confirmed:
+      here_is_a_message_from: ~
+      request_marked_as_confirmed: ~
+      request_marked_as_canceled: ~
+      has_marked_request_as_confirmed: ~
+      has_marked_request_as_canceled: ~
+      giving_feedback_is_good_idea: ~
+      give_feedback_to: ~
+    confirmation_instructions:
+      confirmation_instructions_signature: ~
+      welcome_to_kassi: ~
+      need_to_confirm: ~
+      confirmation_link_text: ~
+      or_paste_link: ~
+      turning_on_confirmations_in_this_community: ~
+    common:
+      check_your_settings: "Verifique suas configurações"
+      hey: "Ola %{name}"
+      kassi_team: "O Time %{service_name}"
+      thanks: "Obrigado,"
+      want_to_control_emails: "Quer controlar quais emails receber de %{service_name}?"
+      dont_want_to_receive_these_emails: ~
+      edit_your_email_settings_here: ~
+      message_not_displaying_correctly: ~
+      view_it_in_your_browser: ~
+      or: ~
+      unsubscribe_from_these_emails: ~
+    community_starter_email:
+      subject: ~
+    conversation_status_changed:
+      has_accepted_your_offer: "%{accepter} aceitou sua oferta %{listing}"
+      has_accepted_your_request: "%{accepter} aceitou sua requisição %{listing}"
+      has_rejected_your_offer: "%{accepter} rejeitou sua oferta %{listing}"
+      has_rejected_your_request: "%{accepter} rejeitou sua requisição %{listing}"
+      view_thread: ~
+      your_offer_was_accepted: "Sua oferta foi aceita"
+      your_offer_was_rejected: "Sua oferta foi rejeitada"
+      your_request_was_accepted: "Sua requisição foi aceita"
+      your_request_was_rejected: "Sua requisição foi rejeitada"
+      you_can_now_pay_to: ~
+      pay_now: "Pagar agora"
+    invitation_to_kassi:
+      hi: ~
+      you_have_been_invited_to_kassi: ~
+      here_is_a_message_from: ~
+      join_now: "Ingressar agora"
+      invitation_code: ~
+    new_badge:
+      you_can_view_all_your_badges_in: "Ver todos seus emblemas"
+      you_have_achieved_a_badge: "Você recebeu um emblema '%{badge_name}' no '%{service_name}'!"
+    new_comment:
+      has_commented_your_listing_in_kassi: ~
+      view_comment: "Ver comentário"
+      you_have_a_new_comment: "%{author} comentou sua lista em %{service_name}"
+      listing_you_follow_has_a_new_comment: ~
+      has_commented_listing_you_follow_in_kassi: ~
+    new_message:
+      conversation_title: ~
+      view_message: "Ver mensagem"
+      has_sent_you_a_message_in_kassi: "%{sender} te enviou uma mensagem em %{service_name}."
+      you_have_a_new_message: "Uma nova mensagem em %{service_name} de %{sender_name}"
+    new_payment:
+      new_payment: ~
+      you_have_received_new_payment: ~
+    braintree_new_payment:
+      product: "Produto:"
+      price_payer_paid: ~
+      service_fee: ~
+      you_will_get: "Você terá:"
+    receipt_to_payer:
+      receipt_of_payment: ~
+      you_have_made_new_payment: ~
+      product: Produto
+      total: ~
+      price: ~
+      service_fee: ~
+    new_testimonial:
+      has_given_you_feedback_in_kassi: "%{name} te deu um feedback em %{service_name}"
+      you_can_give_feedback_to: "Você ainda não deu um feedback para %{name}"
+      view_feedback: ~
+    new_update_to_listing:
+      listing_you_follow_has_been_updated: ~
+      has_updated_listing_you_follow_in_kassi: ~
+      view_changes: "Ver alterações"
+    community_updates:
+      added_offer: ~
+      added_request: ~
+      added_listing: ~
+      update_mail_title: ~
+      title_link_text: ~
+      intro_paragraph: ~
+      intro_paragraph_link_text: ~
+      post_a_new_listing: ~
+      reduce_email_footer_text: ~
+      settings_link_text: ~
+      unsubscribe_link_text: ~
+    newsletter:
+      weekly_news_from_kassi: ~
+      hi: "Ola %{name},"
+      update_on_what_is_happening: ~
+      newest_offers: ~
+      newest_requests: ~
+      could_you_offer_something: ~
+      add: ~
+      an_offer: "uma oferta"
+      a_request: ~
+      to_kassi: ~
+      check_everything_that_others_are: ~
+      offering: ofertando
+      requesting: ~
+      text_version_text: ~
+      occasional_newsletter_title: ~
+    reply_to_contact_request:
+      thank_you_for_your_interest: "Obrigado pelo seu interesse no %{service_name}!"
+    reset_password_instructions:
+      change_my_password: "Alterar minha senha"
+      reset_password_instructions: ~
+    testimonial_reminder:
+      feedback_is_public_and_is_shown: "O feedback é publico e é exibido a todos outros usuários. Baseado no feedback os outros usuários podem julgar o quanto %{name} é uma pessoa confiavel e qualquer um que ele queira interagir. Por isso é sempre bom lembrar de dar feedback nos eventos, e também lembrar os outros para te darem o feedback. Você precisa de feedbacks positivos para ganhar mais emblemas."
+      remember_to_give_feedback_to: "Lembrete: Lembre de dar feedback para %{name}"
+      you_have_not_given_feedback_yet: "Você ainda não deu feedback para %{name} sobre o evento %{event}. Lembre de dar um feedback de como %{given_name} foi no evento"
+    welcome_email:
+      welcome_email_footer_text: ~
+      settings_link_text: ~
+      subject: ~
+      welcome_some_tips: ~
+      p_s_did_you_know: ~
+      click_here_link_text: ~
+      update_your_profile: ~
+      update_your_profile_link_text: ~
+      add_something_you_could_offer: ~
+      add_offer_link_text: ~
+      is_there_something_you_need: ~
+      add_request_link_text: ~
+      invite_your_friends_invite_only: ~
+      invite_your_friends: ~
+      invite_link_text: ~
+      member_list_link_text: ~
+      go_explore: ~
+      love_team: ~
+      congrats_for_creating_community: ~
+      you_have_just_created_community: ~
+      you_now_have_admin_rights: ~
+      edit_community_details_link_text: ~
+      add_content: ~
+      spread_the_word: ~
+      spread_the_word_invite_only: ~
+      have_fun: ~
+  error_messages:
+    listings:
+      departure_time: "Hora de partida deve estar entre a hora atual e um ano a frente a contar de agora."
+      share_type: "Você precisa selecionar um."
+      valid_until: "Essa data deve estar entre a data atual e seis meses a contar de hoje."
+      price: ~
+      minimum_price: ~
+    testimonials:
+      you_must_explain_not_neutral_feedback: "Se você quiser dar um feedback não neutro, você deverá explicar porque."
+      you_must_select_a_grade: "Lembre de dizer se sua experiencia foi positiva ou negativa."
+  error_pages:
+    back_to_kassi_front_page: "Voltar para pagina inicial"
+    error_404:
+      if_you_believe: "Se você acredita que o endereço está correto e deveria funcionar, por favor ajude-nos a localizar o erro deixando-nos saber qual endereço causou o erro e o que deveria ser visto na pagina, com o formulário a seguir."
+      page_can_not_be_found: "Pagina não pode ser encontrada"
+      page_you_requested_can_not_be_found: "A pagina solicitada não foi encontrada. Você tem certeza que digitou o endereço corretamente?"
+    error_404_title: "pagina não encontrada"
+    error_500:
+      help_us_find_the_problem: ~
+      page_loading_failed: "Carregamento da pagina falhou!"
+      reload_refresh: "Recarregar / Atualizar a pagina, muitas vezes ajuda você a alcançar a pagina que estava tentando. Nós tentaremos encontrar o corrigir o problema que causou o erro o mais rápido possível."
+    error_500_title: "falha ao carregar a pagina"
+    error_description: "Descrição do erro"
+    no_javascript:
+      javascript_is_disabled_in_your_browser: "Javascript está desabilitado no seu navegador"
+      kassi_does_not_currently_work_without_javascript: "%{service_name} não funciona corretamente sem javascript. Tente habilitar o javascript nas configurações de seu navegador e recarregar a pagina novamente."
+      kassi_does_not_currently_work_without_javascript_dashboard: ~
+      contact_us: ~
+      send_feedback: "Enviar feedback"
+      your_feedback_to_admins: "Seu feedback para os administradores"
+    send: Enviar
+    your_email_address: "Seu endereço de email"
+  event_feed_events:
+    accept:
+      has_accepted_lend_item: ~
+      has_accepted_borrow_item: ~
+      has_accepted_rent_out_item: ~
+      has_accepted_rent_item: ~
+      has_accepted_give_away_item: ~
+      has_accepted_receive_item: ~
+      has_accepted_sell_item: ~
+      has_accepted_buy_item: ~
+      has_accepted_trade_item: ~
+      has_accepted_sell_housing: ~
+      has_accepted_buy_housing: ~
+      has_accepted_rent_out_housing: ~
+      has_accepted_rent_housing: ~
+      has_accepted_favor: ~
+      has_accepted_rideshare: ~
+    join:
+      joined_kassi: ~
+    login:
+      logged_in_to_kassi: ~
+    comment:
+      commented: ~
+      offer_partitive: ~
+      request_partitive: requisição
+  header:
+    about: Sobre
+    home: Casa
+    members: ~
+    new_listing: ~
+    mobile_version: "Versão para celular"
+    offers: Ofertas
+    requests: Solicitações
+    search_kassi: "Procurar %{service_name}"
+    create_new_marketplace: ~
+    contact_us: ~
+    profile: Perfil
+    invite: ~
+  homepage:
+    additional_private_listings_slate:
+      additionally_one_private_offer_exists: "Além disso  existe <b>uma outra oferta</b>,"
+      additionally_one_private_request_exists: "Além disso  existe <b>uma outra requisição</b>,"
+      additionally_some_private_offers_exist: "Além disso existem <b>%{number_of_listings} outras ofertas</b>,"
+      additionally_some_private_requests_exist: "Além disso existem <b>%{number_of_listings} outras requisições</b>,"
+    blank_slate:
+      add_first: "Adicionar um!"
+      but_that_is_visible_only_to_registered_members: "mas isso é visível apenas por usuários registrados."
+      but_those_are_visible_only_to_registered_members: "mas isso é visível apenas por usuários registrados."
+      create_new_account_for_yourself: "Crie sua nova conta"
+      examples_of_what_you_could_offer_to_others: "O que você pode ofertar aos outros"
+      examples_of_what_you_could_request_to_others: "O que você pode requisitar aos outros"
+      favor_offer_list: "assistência à computadores, reparo de roupas, cozimento, reparos em bicicletas"
+      favor_request_list: "baba, lições de piano, caminhar com cachorros, cortar a grama"
+      favors_to_offer: "Ajuda: "
+      favors_to_request: "Ajuda: "
+      item_offer_list: "ferramentas, artigos esportivos, roupas, equipamentos para camping"
+      item_request_list: ~
+      items_to_offer: "Itens para emprestar: "
+      items_to_request: "Itens para pegar emprestado: "
+      log_in: Entrar!
+      no_offers_visible_unless_logged_in: "Nenhuma oferta de itens, serviços ou caronas compartilhadas visíveis para usuários não logados."
+      no_open_offers_currently: "Nenhum item, serviço ou carona compartilhada anunciado."
+      no_open_requests_currently: "Nenhum pedido de item, serviço ou carona compartilhada."
+      no_requests_visible_unless_logged_in: "Nenhuma solicitação de itens, serviços ou caronas compartilhadas visíveis para usuários não logados."
+      one_private_offer_exists: "Existe <b>uma oferta</b>,"
+      one_private_request_exists: "Existe <b>uma solicitação</b>,"
+      ride_offer: "Leve as crianças dos outros para os seus hobbies"
+      ride_request: "Uma carona para o trabalho"
+      some_private_offers_exist: "Existem <b>%{number_of_listings} ofertas</b>,"
+      some_private_requests_exist: "Existem <b>%{number_of_listings} requisições</b>"
+    custom_filters:
+      update_view: ~
+      min: "Mínimo:"
+      max: "Maximo:"
+    event_feed:
+      latest_events: "O que está acontecendo"
+    grid_item:
+      processing_uploaded_image: ~
+    index:
+      no_listings_with_your_search_criteria: ~
+      no_listings_notification: ~
+      add_listing_link_text: "Adicionar nova lista"
+      available_on_the_app_store: ~
+      private_listing_notification: ~
+      open_listing: ~
+      open_listings: ~
+      private_listing_notification_log_in: ~
+      is: ~
+      are: ~
+      what_do_you_need: ~
+      post_new_listing: ~
+      are_offering: oferta
+      add_news_item: "Adicionar um artigo"
+      inform_others_about_events: ~
+      lend_rent_help_carpool: "Venda, empreste, ajude, compartilhe caronas"
+      loading_more_content: "Carregando mais conteúdo"
+      more_events: "Mais eventos..."
+      news: Notícia
+      no_news: ~
+      more_news: ~
+      or: e
+      or_see_what_the_others: "...ou veja o que os outros"
+      recent_events: "Eventos recentes"
+      requesting: precisa
+      teaser_text: "%{service_name} é um serviço para comunidade %{community}. Aqui você pode emprestar, alugar, dar, vender coisas, ajudar ou compartilhar caronas. Você poderia dar algo aos outros ou ajudá-los?"
+      tell_it_here: "Conte isso aqui!"
+      welcome_to_new_kassi: "Bem vindo ao novo %{service_name}!"
+      no_reviews: ~
+      no_image: "Sem imagem"
+      filter: ~
+      this_is_private_community: ~
+    invitation_form:
+      invite_your_friends: ~
+      invite_your_neighbors: ~
+      email: ~
+      message: ~
+      send_invitation: ~
+      add_as_many_emails_as_you_want: ~
+      invitation_emails_field_placeholder: ~
+      invitation_message_field_placeholder: ~
+      errors_in_emails: ~
+    list_item:
+      review: ~
+      reviews: resenhas
+    news_item:
+      show_less: ~
+      show_more: ~
+    poll_form:
+      poll: ~
+      comment: "Comentário:"
+      answer: ~
+      results: ~
+      poll_answer: ~
+      poll_answers: respostas
+    profile_info_empty_notification:
+      add_your_info: ~
+      add_a_profile_picture: ~
+      you_have_not_added_your_info: ~
+      add_your_info_link: ~
+    recent_listing:
+      please_offer: Oferta
+      comment: Comentar
+      comments: comentários
+    filters:
+      show: "Filtro:"
+      search: ~
+      map: "Exibir mapa"
+      list: ~
+      map_button: ~
+      grid_button: ~
+      list_button: ~
+      all_listing_types: ~
+      all_categories: "Todas categorias"
+  infos:
+    about:
+      default_about_text_title: ~
+      default_about_text: ~
+      click_here_link_text: ~
+  layouts:
+    no_tribe:
+      inbox: ~
+      settings: Configurações
+      feedback: ~
+    admin:
+      admin: "Painel de administração do %{service_name}"
+      back_to_kassi: "Volte para %{service_name}"
+      tribe_info: ~
+      news_items: "Novos artigos"
+      polls: ~
+    application:
+      join_this_community: "Ingressar a comunidade"
+      read_more: ~
+      feedback: "O que você gostaria de nos contar?"
+      default_feedback: ~
+      feedback_forum: "fórum de respostas"
+      feedback_handle: Reposta
+      give_feedback: Contate-nos
+      keywords: ~
+      meta_description: "Sharetribe é um serviço que permite você criar facilmente um mercado online e permitir sua comunidade vender, emprestar, trocar e compartilhar coisas e serviços."
+      or_check_our: "...ou verifique nosso"
+      send_feedback_to_admin: "Enviar feedback"
+      to_see_what_others_have_suggested: "para ver o que outros usuários sugeriram, e votar para novas idéias."
+      your_email_address: "Seu endereço de email (não obrigatório)"
+      connect: Registar
+      invite_your_friends: ~
+      invite_your_neighbors: ~
+      invite_your_friends_description: ~
+      invite_your_friends_invite_only_description: ~
+      join_without_facebook: ~
+      join_without_facebook_link: ~
+    conversations:
+      messages: Mensagens
+      notifications: Notificações
+      received: Recebida
+      sent: Enviada
+    dashboard:
+      title: "%{service_name} - compartilhe coisas, serviços e caronas em sua comunidade!"
+    global-header:
+      select_language: "Selecionar idioma"
+    infos:
+      about: Sobre
+      how_to_use: Ajuda
+      info_about_kassi: "Informações sobre %{service_name}"
+      news: ~
+      register_details: Privacidade
+      terms: "Termos de uso"
+    logged_in:
+      admin: Administrador
+      go_to_your_profile_page: Perfil
+      hi: Ola
+      login: Entrar
+      logout: Sair
+      notifications: Notificações
+      requests: "Solicitações de amizades"
+      settings: Configurações
+      sign_up: "Criar conta"
+    logged_in_messages_icon:
+      messages: Mensagens
+    logged_in_notifications_icon:
+      notifications: Notificações
+    mobile_logged_in:
+      admin: Administrador
+      go_to_your_profile_page: Perfil
+      hi: Ola
+      login: Entrar
+      logout: Sair
+      notifications: Notificações
+      requests: "Solicitações de amizade"
+      settings: Configurações
+      sign_up: Registrar
+    notifications:
+      test_welcome_email_delivered_to: ~
+      something_went_wrong: ~
+      community_updated: ~
+      community_update_failed: ~
+      account_creation_succesful_you_still_need_to_confirm_your_email: ~
+      community_joined_succesfully_you_still_need_to_confirm_your_email: ~
+      comment_cannot_be_empty: "Comentários não podem ser em branco"
+      comment_sent: "Comentário enviado"
+      confirmation_link_is_wrong_or_used: ~
+      additional_email_confirmed: ~
+      could_not_get_email_from_facebook: ~
+      create_new_listing: ~
+      create_one_here: "crie um aqui"
+      email_confirmation_sent_to_new_address: ~
+      email_not_found: "O email que você forneceu não existe no banco de dados do %{service_name}."
+      error_with_session: "Erro na sessão."
+      feedback_considered_spam: "Feedback não gravado, devido a sua formatação. Tente novamente ou use o fórum de feedback."
+      feedback_not_saved: "Feedback não pode ser enviado."
+      feedback_saved: ~
+      feedback_sent_to: "Feedback enviado para %{target_person}."
+      feedback_skipped: "Feedback pulado."
+      invitation_cannot_be_sent: ~
+      invitation_sent: ~
+      inviting_new_users_is_not_allowed_in_this_community: ~
+      login_again: "Por favor, entre novamente."
+      login_failed: ~
+      account_creation_successful: ~
+      account_deleted: ~
+      login_successful: "Bem vindo, %{person_name}"
+      logout_successful: ~
+      news_item_created: ~
+      news_item_creation_failed: "Criação de artigo falhou"
+      news_item_update_failed: "Atualização de artigo falhou"
+      news_item_updated: ~
+      news_item_deleted: ~
+      offer_accepted: "Oferta aceita"
+      offer_confirmed: "Oferta confirmada"
+      offer_closed: "Oferta encerrada"
+      listing_created_successfully: ~
+      offer_rejected: "Oferta rejeitada"
+      offer_canceled: "Oferta cancelada"
+      listing_updated_successfully: ~
+      only_kassi_administrators_can_access_this_area: ~
+      only_listing_author_can_close_a_listing: ~
+      only_listing_author_can_edit_a_listing: ~
+      payment_successful: ~
+      payment_canceled: ~
+      error_in_payment: ~
+      cannot_receive_payment: ~
+      payment_waiting_for_later_accomplishment: ~
+      password_recovery_sent: ~
+      person_activated: "Usuário ativado"
+      person_deactivated: ~
+      person_updated_successfully: ~
+      poll_answered: "Enquete respondida"
+      poll_could_not_be_answered: ~
+      poll_created: ~
+      poll_creation_failed: "Criação de enquete falhou"
+      poll_update_failed: "Atualização de enquete falhou"
+      poll_updated: ~
+      poll_deleted: ~
+      read_more: ~
+      registration_considered_spam: ~
+      reply_cannot_be_empty: ~
+      reply_sent: ~
+      request_accepted: ~
+      request_confirmed: ~
+      request_closed: "Requisição fechada"
+      request_rejected: ~
+      request_canceled: ~
+      message_sent: "Mensagem enviada"
+      this_content_is_not_available_in_this_community: ~
+      unknown_error: ~
+      update_error: ~
+      welcome_message: ~
+      you_are_not_allowed_to_give_feedback_on_this_transaction: ~
+      you_are_not_authorized_to_do_this: ~
+      you_are_not_authorized_to_view_this_content: ~
+      send_instructions: ~
+      you_cannot_reply_to_a_closed_offer: ~
+      you_cannot_reply_to_a_closed_request: ~
+      you_cannot_send_message_to_yourself: ~
+      you_followed_listing: ~
+      you_have_already_given_feedback_about_this_event: ~
+      you_are_now_member: ~
+      you_are_already_member: ~
+      you_must_log_in_to_create_new_listing: ~
+      additional_email_confirmed_dashboard: ~
+      you_must_log_in_to_give_feedback: ~
+      you_must_log_in_to_invite_new_users: ~
+      you_must_log_in_to_send_a_comment: ~
+      you_must_log_in_to_send_a_message: ~
+      you_must_log_in_to_view_this_content: ~
+      you_must_log_in_to_view_this_page: ~
+      you_must_log_in_to_view_your_inbox: ~
+      you_must_log_in_to_view_your_settings: ~
+      you_must_log_in_to_add_news_item: ~
+      you_must_log_in_to_change_profile_settings: ~
+      you_must_log_in_to_change_payment_settings: ~
+      you_need_to_confirm_your_account_first: ~
+      you_must_fill_all_the_fields: ~
+      you_unfollowed_listing: ~
+      joining_community_failed: ~
+      can_not_login_with_private_user: ~
+      can_not_delete_email: ~
+      user_does_not_have_email_to_delete: ~
+      email_deleted: ~
+      payment_details_add_successful: ~
+      payment_details_add_error: ~
+    profile_extras_header:
+      back_to_profile_of_person: ~
+      badges: Emblemas
+      testimonials: ~
+    settings:
+      account: ~
+      notifications: Notificações
+      profile: "Informação do perfil"
+      settings: Configurações
+      payments: Pagamentos
+  listings:
+    bubble_listing_not_visible:
+      listing_not_visible: ~
+    comment:
+      wrote: ~
+      send_private_message: ~
+    comment_form:
+      ask_a_question: ~
+      log_in: entrar
+      send_comment: "Enviar um comentário"
+      to_send_a_comment: ~
+      write_comment: ~
+      you_cannot_send_a_new_comment_because_listing_is_closed: ~
+      you_must: "Você deve"
+      subscribe_to_comments: ~
+    edit:
+      edit_listing: "Editar listagem"
+    edit_links:
+      close_listing: ~
+      edit_listing: "Editar listagem"
+      reopen_listing: "Reabrir listagem"
+    follow_links:
+      follow: ~
+      unfollow: ~
+    form:
+      custom_field_partials:
+        dropdown:
+          select_one___: "Selecione um..."
+      departure_time:
+        at: ~
+        departure_time: "Hora de Partida"
+      departure_time_radio_buttons:
+        repeated: ~
+      description:
+        detailed_description: ~
+      destination:
+        destination: ~
+      form_content:
+        favor: ~
+        housing: ~
+        item: ~
+        offer_something: ~
+        request_something: ~
+        rideshare: "uma carona"
+        i_want_to_offer: ~
+        i_want_to_request: ~
+      googlemap:
+        googlemap_copy: ~
+        googlemap_description: ~
+        googlemap_updatemap: ~
+      images:
+        image: ~
+        no_file_selected: ~
+        remove_image: "Remover imagem"
+        select_file: ~
+      location:
+        location: Local
+      price:
+        price: ~
+        per: ~
+        mass: ~
+        time: ~
+        long_time: ~
+        service_fee_will_be_added: ~
+        after_service_fee_you_will_get: ~
+        price_excludes_vat: ~
+      origin:
+        location: Local
+        origin: Origem
+      send_button:
+        save_listing: "Gravar listagem"
+      share_type:
+        select: ~
+        borrow: ~
+        buy: Comprando
+        give_away: ~
+        lend: ~
+        offer_type: ~
+        receive: ~
+        rent: Alugar
+        rent_out: ~
+        request_type: "Tipo de solicitação"
+        sell: Vendendo
+        share_for_free: ~
+        accept_for_free: ~
+        trade: ~
+      tag_list:
+        comma_separate: ~
+        tags: ~
+      title:
+        listing_title: ~
+      valid_until:
+        valid_until: ~
+      valid_until_radio_buttons:
+        for_the_time_being: ~
+      visibility:
+        all_communities: ~
+        this_community: ~
+        visibility: ~
+      privacy:
+        privacy: Privacidade
+        private: ~
+        public: ~
+    help_texts:
+      help_share_type_title: ~
+      help_tags_title: ~
+      help_valid_until_title: ~
+    index:
+      all_categories: "Todas categorias"
+      all_offer_types: ~
+      all_request_types: ~
+      category: Categoria
+      did_not_found_what_you_were_looking_for: ~
+      favors: Serviços
+      housing: Espaços
+      items: ~
+      list_view: ~
+      listings: Listagens
+      map_view: "Ver mapa"
+      offer_something: ~
+      offer_type: ~
+      offers: Ofertas
+      request_something: ~
+      request_type: "Tipo de solicitação"
+      requests: Solicitações
+      rideshare: ~
+      search_verb: Buscar
+      you_have_something_others_do_not: ~
+      feed_title: ~
+    left_panel_link:
+      borrows: ~
+      buys: Comprar
+      favors: Serviços
+      give_aways: ~
+      housings: Espaços
+      items: ~
+      lends: Empréstimo
+      receives: ~
+      rent_outs: ~
+      rents: Alugando
+      rideshares: ~
+      sells: Vendendo
+      share_for_frees: ~
+      accept_for_frees: ~
+      trades: ~
+    new:
+      post_a_new_listing: ~
+      listing: listando
+      selected_category: ~
+      selected_subcategory: ~
+      selected_transaction_type: ~
+      select_category: "Selecione uma categoria"
+      select_subcategory: ~
+      select_transaction_type: ~
+    please_comment: Comentar
+    reply_link:
+      listing_closed: ~
+    show:
+      add_your_phone_number: ~
+      add_profile_picture: ~
+      comments: ~
+      contact_by_phone: ~
+      contact: Contato
+      favor_offer: "Oferecer serviço"
+      favor_request: ~
+      inquiry: Inquérito
+      item_offer_trade: ~
+      item_request_trade: "Trocar requisição"
+      no_description: ~
+      no_image: "Sem imagem"
+      no_reviews: ~
+      offer: ~
+      listing_created: Criado
+      open_until: ~
+      feedback: Reposta
+      qr_code: "QR Code"
+      request: Requisição
+      rideshare_offer: ~
+      rideshare_request: ~
+      send_private_message: ~
+      share_types: ~
+      share_types_offer: "Tipo de oferta"
+      share_types_request: ~
+      tags: ~
+      time: ~
+      times: ~
+      times_viewed: Visualizado
+      processing_uploaded_image: ~
+      price_excludes_vat: ~
+      listing_created_at: "Listagem criada"
+    displayed_price:
+      price_excludes_vat: "(excluindo VAT)"
+    verification_required:
+      verification_required: ~
+  mapview:
+    index:
+      all_categories: "Todas categorias"
+      all_offer_types: ~
+      all_request_types: ~
+      category: Categoria
+      did_not_found_what_you_were_looking_for: ~
+      favors: Serviços
+      housing: Espaços
+      items: ~
+      list_view: ~
+      map_view: "Ver mapa"
+      offer_something: ~
+      offer_type: ~
+      offers: Ofertas
+      request_something: ~
+      request_type: "Tipo de solicitação"
+      requests: Solicitações
+      rideshare: ~
+      search_verb: Buscar
+      you_have_something_others_do_not: ~
+    please_comment: Comentar
+  news_items:
+    index:
+      news_from_community: ~
+    news_item:
+      delete_news_item: "Remover artigo"
+  okl:
+    member_id: ~
+    member_id_or_email: ~
+  payments:
+    new:
+      new_payment: ~
+      continue: Continua
+      payment_receiver: ~
+      sum: "Soma do pagamento:"
+      commission_will_be_added: ~
+    form:
+      total: ~
+      service_charge: ~
+      product: "Produto:"
+      price: ~
+      price_for: ~
+      continue_to_pay: "Continuar para pagamento"
+      invoice: Fatura
+      service_fee: ~
+      you_will_get: "Você terá:"
+    mangopay:
+      terms:
+        mangopay_terms_also_included: ~
+        terms_link_text: ~
+      seller_registration_needed:
+        seller_registration_needed: ~
+        seller_registration_instructions: ~
+        settings_page_link: perfil
+    braintree:
+      terms:
+        braintree_terms_also_included: ~
+        terms_link_text: ~
+  people:
+    index:
+      loading_more_members: ~
+      meet_the_people: ~
+      you_are_the_only_member: ~
+      here_are_the_members: ~
+      wanna_see_more_folks: ~
+      invite_people_you_know: ~
+      there_are_x_members: ~
+      to_see_the_list_log_in: ~
+      log_in_link: ~
+    badge_description:
+      badge_achieved_at: ~
+      you_do_not_yet_have_this_badge: ~
+    edit_links:
+      activate: Ativar
+      deactivate: ~
+    help_texts:
+      badges_description_title: ~
+      feedback_description_title: Reposta
+      help_captcha_title: "Você é um humano?"
+      help_invitation_code_title: ~
+      terms_title: ~
+      trustcloud_description_title: ~
+      trustcloud_description_text: ~
+      invite_only_help_text: ~
+      invite_only_help_text_title: ~
+    inactive_notification:
+      this_person_is_not_active_in_kassi: ~
+      inactive_description: ~
+    new:
+      captcha_incorrect: ~
+      captcha_was_wrong: ~
+      create_new_account: "Criar conta"
+      email: "Endereço de email"
+      email_is_in_use: ~
+      email_is_in_use_or_not_allowed: ~
+      email_not_allowed: ~
+      enter_captcha: "Eu sou humano:"
+      family_name: ~
+      given_name: ~
+      i_accept_the: ~
+      invalid_invitation_code: ~
+      invitation_code: ~
+      not_required: ", não necessaria"
+      password_again: ~
+      show_my_name_to_others: ~
+      sign_up: ~
+      terms: ~
+      username_is_in_use: ~
+      username_is_invalid: ~
+      visible_only_to_you: ~
+      visible_to_everybody: ~
+      create_account_with_facebook: ~
+      or_create_new_account_without_facebook: ~
+    not_member:
+      explanation_text: ~
+      read_more_about_kassi_communities: ~
+      this_user_does_not_belong_to_this_community: ~
+    profile_badge:
+      active_member_bronze: ~
+      active_member_bronze_description: ~
+      active_member_gold: ~
+      active_member_gold_description: ~
+      active_member_silver: ~
+      active_member_silver_description: ~
+      chauffer_bronze: ~
+      chauffer_bronze_description: ~
+      chauffer_gold: ~
+      chauffer_gold_description: ~
+      chauffer_silver: ~
+      chauffer_silver_description: ~
+      commentator_bronze: ~
+      commentator_bronze_description: ~
+      commentator_gold: ~
+      commentator_gold_description: ~
+      commentator_silver: ~
+      commentator_silver_description: ~
+      enthusiast_bronze: ~
+      enthusiast_bronze_description: ~
+      enthusiast_gold: ~
+      enthusiast_gold_description: ~
+      enthusiast_silver: ~
+      enthusiast_silver_description: ~
+      first_transaction: ~
+      first_transaction_description: ~
+      generous_bronze: ~
+      generous_bronze_description: ~
+      generous_gold: ~
+      generous_gold_description: ~
+      generous_silver: ~
+      generous_silver_description: ~
+      helper_bronze: ~
+      helper_bronze_description: ~
+      helper_gold: ~
+      helper_gold_description: ~
+      helper_silver: ~
+      helper_silver_description: ~
+      jack_of_all_trades: ~
+      jack_of_all_trades_description: ~
+      lender_bronze: ~
+      lender_bronze_description: ~
+      lender_gold: ~
+      lender_gold_description: ~
+      lender_silver: ~
+      lender_silver_description: ~
+      listing_freak_bronze: ~
+      listing_freak_bronze_description: ~
+      listing_freak_gold: ~
+      listing_freak_gold_description: ~
+      listing_freak_silver: ~
+      listing_freak_silver_description: ~
+      moneymaker_bronze: ~
+      moneymaker_bronze_description: ~
+      moneymaker_gold: ~
+      moneymaker_gold_description: ~
+      moneymaker_silver: ~
+      moneymaker_silver_description: ~
+      rookie: ~
+      rookie_description: ~
+      santa: ~
+      santa_description: ~
+      taxi_stand_bronze: ~
+      taxi_stand_bronze_description: ~
+      taxi_stand_gold: ~
+      taxi_stand_gold_description: ~
+      taxi_stand_silver: ~
+      taxi_stand_silver_description: ~
+      volunteer_bronze: ~
+      volunteer_bronze_description: ~
+      volunteer_gold: ~
+      volunteer_gold_description: ~
+      volunteer_silver: ~
+      volunteer_silver_description: ~
+    profile_feedback:
+      as_expected: "Como esperado"
+      exceeded_expectations: ~
+      grade: ~
+      and_gave_following_feedback: ~
+      less_than_expected: ~
+      slightly_better_than_expected: ~
+      slightly_less_than_expected: ~
+    profile_listings:
+      show_also_closed: ~
+      show_only_open: "Exibir apenas abertos"
+      no_image: "Sem imagem"
+    show:
+      contact: ~
+      about_me: ~
+      add_description: ~
+      add_location: ~
+      add_phone_number: ~
+      address: ~
+      as_expected: "Como esperado"
+      edit_profile_info: ~
+      exceeded_expectations: ~
+      positive: positivo
+      hide_description: ~
+      joined_this_community: ~
+      was_last_seen: ~
+      was_invited_by: ~
+      less_than_expected: ~
+      phone_number: "Telefone:"
+      show_all_badges: ~
+      show_all_feedback: ~
+      show_all_testimonials: ~
+      show_full_description: ~
+      slightly_better_than_expected: ~
+      slightly_less_than_expected: ~
+      what_are_these: ~
+      review: ~
+      reviews: ~
+      badge: ~
+      badges: ~
+      listing: listando
+      listings: listagens
+      open_listing: ~
+      open_listings: "abrir listagens"
+      no_listings: ~
+      no_open_listings: ~
+      no_reviews: ~
+      no_badges: ~
+      show_all_listings: ~
+      show_all_open_listings: ~
+      show_all_reviews: ~
+      trustcloud: ~
+  search:
+    show:
+      all_results: "Todos resultados"
+      loading_more_search_results: ~
+      offers: ~
+      requests: Solicitações
+      search: ~
+      search_results: "Procurar resultados"
+      search_returned_no_results: ~
+      search_verb: ~
+  sessions:
+    new:
+      create_new_account: ~
+      i_forgot_my_password: ~
+      login: ~
+      login_to_kassi: ~
+      connect_your_facebook_to_kassi: ~
+      facebook_account: ~
+      log_in_to_link_account: ~
+      you_can_also_create_new_account: ~
+      account_creation_link_text: ~
+      cancle_facebook_connect: ~
+      facebook_cancel_link_text: ~
+      log_in_with_your_facebook_account: ~
+      or_sign_up_with_your_username: ~
+      we_will_not_post_without_asking_you: ~
+    password_forgotten:
+      email: ~
+      password_recovery_instructions: ~
+      request_new_password: ~
+      change_your_password: "Alterar sua senha"
+    confirmation_pending:
+      welcome_to_kassi: ~
+      check_your_email: ~
+      get_started: ~
+      getting_started_instructions: ~
+      resend_confirmation_instructions: ~
+      your_current_email_is: ~
+      change_email: ~
+      confirm_your_email: ~
+      account_confirmation_instructions: ~
+      account_confirmation_instructions_dashboard: ~
+  settings:
+    account:
+      change: ~
+      confirm_new_password: ~
+      delete_account: "Deletar conta"
+      delete_account_button: ~
+      delete_account_confirmation_popup: ~
+      email_addresses: "Endereço de email"
+      instructions_to_delete_account: ~
+      contact_admin: ~
+      new_email: ~
+      new_password: ~
+      save: ~
+      these_fields_are_shown_only_to_you: ~
+      email:
+        address_title: Endereço
+        remove_title: ~
+        remove_confirmation: ~
+        receive_notifications_title_desktop: ~
+        receive_notifications_title_mobile: ~
+        receive_notifications_new_title_mobile: ~
+        add_new_with_plus: ~
+        add_new_cancel: ~
+        confirmation_title_mobile: "Confirmação:"
+        confirmation_title_desktop: Confirmação
+        confirmation_resend: ~
+        status_confirmed: ~
+        status_pending: Pendente
+    notifications:
+      email_from_admins: ~
+      i_want_to_get_email_notification_when: ~
+      newsletters: Noticias
+      community_updates: ~
+      email_about_accept_reminders: ~
+      email_about_confirm_reminders: ~
+      email_about_new_badges: ~
+      email_about_new_comments_to_own_listing: ~
+      email_about_new_messages: ~
+      email_about_new_received_testimonials: ~
+      email_about_testimonial_reminders: ~
+      email_daily_community_updates: ~
+      email_weekly_community_updates: ~
+      do_not_email_community_updates: ~
+      email_newsletters: ~
+      email_when_conversation_accepted: ~
+      email_when_conversation_rejected: ~
+      email_about_completed_transactions: ~
+      email_about_new_payments: ~
+      email_about_payment_reminders: ~
+      unsubscribe_succesful: ~
+      unsubscribe_info_text: ~
+      settings_link: configurações
+      homepage_link: ~
+      unsubscribe_unsuccesful: ~
+      unsuccessful_unsubscribe_info_text: ~
+    profile:
+      about_you: ~
+      city: ~
+      family_name: ~
+      given_name: ~
+      location_description: ~
+      phone_number: ~
+      profile_picture: "Foto do perfil"
+      postal_code: CEP
+      profile_page: ~
+      profilemap: "Ver mapa"
+      street_address: Local
+      these_fields_are_shown_in_your: ~
+      visible_to_everybody: ~
+      visible_to_registered_users: ~
+    save_information: ~
+  tag_cloud:
+    tag_used:
+      with_tag: "Com marcação"
+      without_tag: ~
+  terms:
+    show:
+      accept_terms: ~
+      here: ~
+      i_accept_new_terms: ~
+      i_accept_terms: ~
+      terms: ~
+      terms_have_changed: ~
+      you_can_view_the_new_terms: ~
+      you_need_to_accept: ~
+      you_need_to_accept_new_terms: ~
+  testimonials:
+    index:
+      all_testimonials: ~
+      feedback_altogether: ~
+      loading_more_testimonials: ~
+      no_testimonials: ~
+    new:
+      as_expected: "Como esperado"
+      exceeded_expectations: ~
+      give_feedback_to: ~
+      grade: ~
+      less_than_expected: ~
+      send_feedback: "Enviar feedback"
+      slightly_better_than_expected: ~
+      slightly_less_than_expected: ~
+      textual_feedback: ~
+      this_will_be_shown_in_profile: ~
+      positive: Positivo
+      negative: Negativo
+      default_textual_feedback: ~
+    testimonial:
+      about_listing: ~
+  time:
+    formats:
+      short: ~
+      shorter: "%e %b as %H:%M"
+      short_date: ~
+      sms: "%e %b as %H:%M"
+  timestamps:
+    day_ago: ~
+    days_ago: ~
+    hour_ago: ~
+    hours_ago: ~
+    minute_ago: ~
+    minutes_ago: ~
+    month_ago: ~
+    months_ago: ~
+    seconds_ago: ~
+    year_ago: ~
+    years_ago: ~
+  will_paginate:
+    previous_label: ~
+    next_label: ~
+    page_gap: ~
+    page_entries_info:
+      multi_page: ~
+      multi_page_html: ~
